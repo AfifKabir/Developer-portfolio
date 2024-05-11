@@ -15,7 +15,16 @@ h1{
   display: flex;
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  margin-bottom: 40px;
   
+}
+#big-dream{
+  display: flex;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+  background-position: right;
+  background-position-y: bottom;
 }
 .half-width{
   width: 50%;
@@ -28,6 +37,14 @@ h1{
   text-decoration: none;
   background-image:linear-gradient(rgb(255, 165, 0),tomato);
   padding: 10px 40px;
+  font-weight: 700;
+  color: white;
+  border-radius: 15px;
+}
+.fb{
+  text-decoration: none;
+  background-image: linear-gradient(orange,tomato);
+  padding:10px 40px ;
   font-weight: 700;
   color: white;
   border-radius: 15px;
