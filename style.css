@@ -7,3 +7,21 @@ h1{
 .name{
     color: rgb(239, 239, 7);
 }
+section{
+  display: flex;
+}
+.half-width{
+  width: 50%;
+  padding: 40px;
+}
+.half-width img{
+  width: 100%;
+}
+.no-under{
+  text-decoration: none;
+  background-image:linear-gradient(rgb(255, 165, 0),tomato);
+  padding: 10px 40px;
+  font-weight: 700;
+  color: white;
+}
+
