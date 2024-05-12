@@ -8,23 +8,24 @@ h1{
 #first-div{
   padding-left:80px ;
 }
-.name{
-    color: rgb(239, 239, 7);
+.orange{
+    color: orange;
 }
 #top{
-  display: flex;
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
   margin-bottom: 40px;
   
 }
 #big-dream{
-  display: flex;
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   background-position: right;
   background-position-y: bottom;
+}
+.flexible{
+  display: flex;
 }
 .half-width{
   width: 50%;
@@ -33,7 +34,7 @@ h1{
 .half-width img{
   width: 100%;
 }
-.no-under{
+.anchor1{
   text-decoration: none;
   background-image:linear-gradient(rgb(255, 165, 0),tomato);
   padding: 10px 40px;
@@ -48,5 +49,30 @@ h1{
   font-weight: 700;
   color: white;
   border-radius: 15px;
+}
+.shadow{
+  box-shadow:10px 10px 40px gray ;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 60px;
+
+}
+#finishing{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: bottom;
+}
+#web-dev{
+  border-left:7px solid ;
+  border-image:linear-gradient(purple,tomato);
+  border-image-slice: 1;
+
+}
+#robo{
+  border-left:7px solid ;
+  border-image:linear-gradient(blue,cyan);
+  border-image-slice: 1;
 }
 
